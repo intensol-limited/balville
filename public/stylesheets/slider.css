@@ -67,7 +67,7 @@ outline:none;
 margin-left:5px;
 width:14px;
 height:14px;
-background: url(../images/slide_button.png) no-repeat left top;
+background: url(/images/slide_button.png) no-repeat left top;
 }
 
 .sliderBullets .active {
