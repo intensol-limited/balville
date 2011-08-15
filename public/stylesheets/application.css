@@ -305,11 +305,11 @@ a.copyright:active, a.copyright:visited {
   width: 100%;
 }
 
-.description_direction .wrapper hgroup{
+.description_direction .wrapper .hgroup{
   position: absolute;
   top: 95px;
   left: 20px;
-  color: #fff;
+  color: #fff!important;
 }
 
 .description_direction .wrapper h2{
@@ -328,7 +328,12 @@ a.copyright:active, a.copyright:visited {
 .projects .wrapper{
   min-height:425px;
 }
-
+.projects_mini .wrapper{
+  min-height:246px;
+}
+.projects_mini .wrapper h2{
+	color: #fff;
+}
 .projects .wrapper h2{
   position: absolute;
   top: 135px;
@@ -376,8 +381,7 @@ article h2{
 	
 }
 .about_pages img{
-	float: left;
-	padding-right: 116px;	
+display: inline;	
 }
 .team ul li{
   float: left;

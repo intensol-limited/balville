@@ -36,8 +36,12 @@ $(function(){
 			       <div class="item" style="display: none;">
 			         <div class="slider_container">
 			            <div class="body">
-
+				              <div class="left">
+                      <div class="slider_image">
+	                    
 								      <%= image_fu about_page.illustration, nil %>
+								      </div>
+								       </div> 
 							        <h1><%= about_page.title %></h1>
 							        <%=raw about_page.body %>
 
@@ -52,9 +56,19 @@ $(function(){
 
 <div id="projects">
     <% @projects.each do |project, index| %>
-      <div class="description_direction projects grid_4 <% if [0, 3, 6].include?(index) then %>alpha<% end %> <% if [2, 5, 7].include?(index) then %>omega<% end %>">
-	      <a href="<%=project_path(project)%>" title="<%= project.title1 %>">
+      <div class="description_direction projects_mini grid_4 <% if [0, 3, 6].include?(index) then %>alpha<% end %> <% if [2, 5, 7].include?(index) then %>omega<% end %>">
+	      <a href="/projects/<%= project.title1 %>" title="<%= project.title1 %>" class="wrapper">
         <%= image_fu project.illustration, nil %>
+         <%=raw project.shorttext %>
+       <div class="hgroup">
+        <h2>
+		      <%= project.title1 %>
+		    </h2>
+		     	<h3>
+			      <%= project.title2 %>
+			    </h3>
+			    </div> 
+			     
         </a>
       </div>
     <% end %>

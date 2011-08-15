@@ -101,6 +101,17 @@ z-index:50;
   height: 380px;
   position: relative;
 }
+.body .slider_image{
+	height: 380px;
+	vertical-align: middle;
+	width: auto;
+	
+}
+.body .slider_image img{
+	line-height: 380px;
+	display: inline;
+
+}
 
 .slider_container.slide_img0{
   background: url(../img/th1/about.png) no-repeat 100px 0;

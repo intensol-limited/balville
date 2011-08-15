@@ -10,7 +10,7 @@ class VacanciesController < ApplicationController
   end
 
   def show
-    @vacancy = Vacancy.find(params[:id])
+    @vacancy = Vacancy.find_by_title(params[:id])
 
     # you can use meta fields from your model instead (e.g. browser_title)
     # by swapping @page for @vacancy in the line below:

@@ -8,7 +8,7 @@
 	  
 		    <% @projects.each_with_index do |project, index| %>
 		      <div class="description_direction projects grid_4 <% if [0, 3, 6].include?(index) then %>alpha<% end %> <% if [2, 5, 7].include?(index) then %>omega<% end %>">
-			      <a class="wrapper" href="<%= url_for project_path(project)%>">
+			      <a class="wrapper" href="/projects/<%= project.title1 %>">
 			      <%= image_fu project.illustration, nil, :width=>"289", :height=>"170" %>
 		        <h2><%= project.title1 %></h2>
 		        <h3><%= project.title2 %></h3>

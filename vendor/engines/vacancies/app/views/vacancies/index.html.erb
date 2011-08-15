@@ -7,7 +7,7 @@
   <div id="vacancies">
     <% @vacancies.each do |vacancy| %>
       <div class="description_direction">
-	      <a class="wrapper" href="<%= url_for vacancy_path(vacancy)%>">
+	      <a class="wrapper" href="/vacancies/<%= vacancy.title %>">
         <h2 class="title"><%=vacancy.title %></h2>
 		    <%=raw vacancy.description %>
 		    <br/>
