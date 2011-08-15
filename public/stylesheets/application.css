@@ -1,5 +1,5 @@
 body {
-	background: #e9e9e9 url(../img/th1/bg.png) repeat;
+	background: #e9e9e9 url(/images/th1/bg.png) repeat;
 	/*font-family: 'Rosario', serif;*/
 	font-family: Arial;
 	font-size: 15px;
@@ -35,7 +35,7 @@ small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li{
 	height:100%;
 	margin:0 auto;
 	background:#90FF8F;	
-	background: url(../images/gradient.png) repeat-x top;
+	background: url(/images/gradient.png) repeat-x top;
 	min-height: 100%;
 	padding-bottom: 100px; 
 }
@@ -158,7 +158,7 @@ header nav li a{
 }
 
 header nav li a span{
-  background-image: url("../images/bal_icons_menu.png");
+  background-image: url("/images/bal_icons_menu.png");
   background-repeat: no-repeat;
   display: block;
   float: left;
@@ -216,7 +216,7 @@ header nav li.selected a{
 
 /*Footer*/
 .main_footer{
- /*background: #fff url(../img/th1/bgfooter.png) repeat-x 0 0;
+ /*background: #fff url(/images/th1/bgfooter.png) repeat-x 0 0;
  background: #fff;*/
  padding-top: 20px;
  /*position: absolute;
@@ -241,7 +241,7 @@ footer{
   padding-left: 40px;
   padding-top:4px;
   text-decoration: none;
-  background: url(../images/c.png) no-repeat 0 0;
+  background: url(/images/c.png) no-repeat 0 0;
 }
 
 a.copyright:active, a.copyright:visited {
@@ -256,7 +256,7 @@ a.copyright:active, a.copyright:visited {
   padding-left: 40px;
   padding-top:4px;
   text-decoration: none;
-  background: url(../images/m.png) no-repeat 0 4px;
+  background: url(/images/m.png) no-repeat 0 4px;
 }
 
 .logos{

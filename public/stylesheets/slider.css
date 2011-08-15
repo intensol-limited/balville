@@ -27,7 +27,7 @@ display:none;/*!!!*/
 text-indent:-9999px;
 outline:none;
 z-index:50;
-background-image:url(../img/gfx/prev_next.png);
+background-image:url(/images/gfx/prev_next.png);
 width:42px;
 height:42px;
 position:absolute;
@@ -67,7 +67,7 @@ outline:none;
 margin-left:5px;
 width:14px;
 height:14px;
-background: url(../images/slide_button.png) no-repeat left top;
+background: url(/images/slide_button.png) no-repeat left top;
 }
 
 .sliderBullets .active {
@@ -114,19 +114,19 @@ z-index:50;
 }
 
 .slider_container.slide_img0{
-  background: url(../img/th1/about.png) no-repeat 100px 0;
+  background: url(/images/th1/about.png) no-repeat 100px 0;
 }
 
 .slider_container.slide_img1{
-  background: url(../img/th1/soft1.png) no-repeat 15px 0;
+  background: url(/images/th1/soft1.png) no-repeat 15px 0;
 }
 
 .slider_container.slide_img2{
-  background: url(../img/th1/rrr.png) no-repeat 20px 40px;
+  background: url(/images/th1/rrr.png) no-repeat 20px 40px;
 }
 
 .slider_container.slide_img3{
-  background: url(../img/th1/slide_img3.png) no-repeat 15px 40px;
+  background: url(/images/th1/slide_img3.png) no-repeat 15px 40px;
 }
 
 .slider_container h1{
