@@ -59,6 +59,9 @@ gem 'refinerycms-i18n',         '~> 1.0.0'
 
 # END USER DEFINED
 
+gem 'refinerycms-inquiries', '~> 1.0.0'
+
+
 gem 'refinerycms-vacancies', '1.0', :path => 'vendor/engines'
 gem 'refinerycms-about_pages', '1.0', :path => 'vendor/engines'
 gem 'refinerycms-projects', '1.0', :path => 'vendor/engines'

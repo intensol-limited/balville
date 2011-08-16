@@ -8,17 +8,27 @@ body h1, h1, h2{
 	font-family: 'Rosario', serif;
 	color: #444444;
 }
+body h1{
+	font-family: 'Rosario', serif;
+	color: #444444;
+	font-size: 28px;
+	font-weight: 500;
+	padding-bottom: 35px;
+	padding-top: 5px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
+}
+
 #page, #site_bar_content, footer, header {
   width: 960px;
   margin: 0px auto;
 }
 #body_content_left {
   float: left;
-  width: 580px;
+  width: 360px;
 }
 #body_content_right {
   float: right;
-  width: 380px;
+  width: 522px;
 }
 #body_content_left .inner {
   padding-right: 10px;
@@ -49,24 +59,51 @@ body h1, h1, h2{
   font-weight: bold;
 }
 .inquiries form label {
-  width: 150px;
+  width: 148px;
   float: left;
+  font-size: 15px;
+  font-family: 'Rosario',serif;
 }
 .inquiries form input {
   width: 200px;
+  height: 20px;
+  padding: 3px 6px 3px 6px;
 }
 .inquiries form input, .inquiries form textarea {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: snow;
+  box-shadow:0px 2px 3px #ccc;
+  -moz-box-shadow:0px 2px 3px #ccc;
+  
 
 }
 .inquiries form textarea {
-
+   padding: 6px;
+   width: 328px;
 }
 .inquiries form .actions {
   margin-left: 150px;
 }
 .inquiries form .actions input {
   width: auto;
+  color: #fff;
+  /*background: #646464;*/
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow:0px 0px 0px #ccc;
+  height: 26px;
+  padding: 3px 6px 5px 6px;
 }
+.inquiries form .actions input:hover {
+  width: auto;
+  color: #fff;
+  /*background: #646464;*/
+  background: #646464;
+  text-shadow:0px 0px 0px #ccc;
+}
+
+
+
 .inquiries .field {
   margin: 12px 0px;
 }
@@ -81,7 +118,13 @@ body h1, h1, h2{
   font-weight:bold;
   width:auto;
 }
-
-
+.inquiries{
+	position: relative;
+}
+.new_inquiry {
+	position: absolute;
+	top: 20px;
+	right: -588px;
+}
 
 
