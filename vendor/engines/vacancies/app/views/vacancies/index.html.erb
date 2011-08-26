@@ -7,11 +7,13 @@
   <div id="vacancies">
     <% @vacancies.each do |vacancy| %>
       <div class="description_direction">
-	      <a class="wrapper" href="/vacancies/<%= vacancy.title %>">
+	      <div class="wrapper">
         <h2 class="title"><%=vacancy.title %></h2>
 		    <%=raw vacancy.description %>
+		    <a class="more" href="/vacancies/<%= vacancy.title %>">Read more</a>
+		    <div class="clear"></div>
 		    <br/>
-		    </a>
+		    </div>
 		     <br/>
       </div>
     <% end %>
