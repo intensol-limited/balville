@@ -355,6 +355,27 @@ a.copyright:active, a.copyright:visited {
   color: #777;
 }
 
+.vacancies .wrapper{
+	min-height:325px;
+}
+.vacancies .wrapper h2{
+  position: absolute;
+  top: 168px;
+  left: 20px;
+  color: #fff;
+  z-index: 10;
+}
+.vacancies img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 460px;
+	height: 206px;
+	z-index: 1;
+}
+.vacancies p {
+	padding: 220px 20px 20px 20px!important;
+}
 /*type text theme*/
 
 .slider_container h2, article h2{

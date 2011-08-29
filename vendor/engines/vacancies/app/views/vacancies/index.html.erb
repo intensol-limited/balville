@@ -4,21 +4,18 @@
 		<h1>
 		Currently opened vacancies
 		</h1>
-  <div id="vacancies">
-    <% @vacancies.each do |vacancy| %>
-      <div class="description_direction">
-	      <div class="wrapper">
-        <h2 class="title"><%=vacancy.title %></h2>
-		    <%=raw vacancy.description %>
-		    <a class="more" href="/vacancies/<%= vacancy.title %>">Read more</a>
-		    <div class="clear"></div>
-		    <br/>
-		    </div>
-		     <br/>
-      </div>
-    <% end %>
-  </div>
-
-	</article>
+		  <div id="vacancies">
+	  
+		    <% @vacancies.each_with_index do |vacancy, index| %>
+		      <div class="description_direction vacancies grid_6 <% if [0, 2, 4].include?(index) then %>alpha<% end %> <% if [1, 3, 5].include?(index) then %>omega<% end %>">
+			      <a class="wrapper" href="/vacancies/<%= vacancy.title %>">
+			      <%#= image_fu project.illustration, nil, :width=>"289", :height=>"170" %>
+		        <h2><%= vacancy.title %></h2>
+				      <%=raw vacancy.description %>
+		        </a>
+		      </div>
+		    <% end %>
+		  </div>
+		</article>
 </div>
 </div>
