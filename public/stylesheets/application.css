@@ -372,6 +372,8 @@ a.copyright:active, a.copyright:visited {
 	width: 460px;
 	height: 206px;
 	z-index: 1;
+	-moz-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
 }
 .vacancies p {
 	padding: 220px 20px 20px 20px!important;
