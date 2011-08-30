@@ -267,6 +267,9 @@ a.copyright:active, a.copyright:visited {
  text-align: center;
 }
 /*description_direction*/
+.description_direction{
+	margin-bottom: 20px;
+}
 .description_direction .wrapper{
   display: block;
   background: #fff;
@@ -504,6 +507,9 @@ box-shadow: 0 2px 3px #777;
 	padding:0;
 	margin:-100px 0 0 -50%; /* смещаем блок вверх и влево на 50% высоты и ширины самого блока: (120px + 20px)/2 (20px добавляет padding) */
 	background:#FF8F8F;
+}
+.more{
+	
 }
 
 p { padding:0.5em 0; text-align:left; }
