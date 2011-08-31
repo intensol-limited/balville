@@ -8,11 +8,12 @@
 	  
 		    <% @vacancies.each_with_index do |vacancy, index| %>
 		      <div class="description_direction vacancies grid_4 <% if [0, 3, 6].include?(index) then %>alpha<% end %> <% if [2, 5, 7].include?(index) then %>omega<% end %>">
-			      <a class="wrapper" href="/vacancies/<%= vacancy.title %>">
+			      <div class="wrapper">
 			      <%#= image_fu project.illustration, nil, :width=>"289", :height=>"170" %>
-		        <h2><%= vacancy.title %></h2>
+		        <h2><a href="/vacancies/<%= vacancy.title %>"><%= vacancy.title %></a></h2>
 				      <%=raw vacancy.description %>
-		        </a>
+				      <a href="/vacancies/<%= vacancy.title %>" class="more">more</a>
+		        </div>
 		      </div>
 		    <% end %>
 		  </div>
