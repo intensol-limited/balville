@@ -359,11 +359,11 @@ a.copyright:active, a.copyright:visited {
 }
 
 .vacancies .wrapper{
-	min-height:325px;
+	min-height:345px;
 }
 .vacancies .wrapper h2{
   position: absolute;
-  top: 168px;
+  top: 135px;
   left: 20px;
   color: #fff;
   z-index: 10;
@@ -372,14 +372,14 @@ a.copyright:active, a.copyright:visited {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 460px;
-	height: 206px;
+	width: 289px;
+	height: 165px;
 	z-index: 1;
 	-moz-border-radius: 10px 10px 0 0;
 	border-radius: 10px 10px 0 0;
 }
 .vacancies p {
-	padding: 220px 20px 20px 20px!important;
+	padding: 180px 20px 20px 20px!important;
 }
 /*type text theme*/
 
