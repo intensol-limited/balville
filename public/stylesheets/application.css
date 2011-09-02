@@ -50,7 +50,7 @@ h1#logo{
 
 h1#logo a{
 	width: 114px;
-	height: 38px; 
+	height: 40px; 
 	
 }
 
@@ -356,6 +356,7 @@ a.copyright:active, a.copyright:visited {
   font-size: 13px;
   display: block;
   color: #777;
+  text-align: justify;
 }
 
 .vacancies .wrapper{
