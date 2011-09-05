@@ -234,7 +234,14 @@ footer{
   width: 100%;
   padding-top: 20px;
 }
-
+.sitemap {
+	padding-top: 12px;
+}
+.sitemap a{
+	color: #777777;
+	font-size: 11px;
+	text-decoration: none;
+}
 /*copyright*/
 .copyright{
   color: #777;
