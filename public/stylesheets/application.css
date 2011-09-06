@@ -416,6 +416,9 @@ article h2{
   line-height: 20px;
   padding-bottom: 15px;
 }
+article ul{
+  padding-left: 25px;
+}
 
 .slider_container p{
   line-height: 19px;
@@ -538,7 +541,6 @@ p { padding:0.5em 0; text-align:left; }
 ul, li{
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 .left, .left_p{float: left;}
 .right{float: right;}
