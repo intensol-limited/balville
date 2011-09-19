@@ -2,20 +2,37 @@
 <div class="grid_12 alpha omega team">
 	<article>
 		<h1>
-		Creative core
+		Managing Team
 		</h1>
   <ul id="team_members">
-    <% @team_members.each do |team_member| %>
+    <% @team_members.each_with_index do |team_member, index| %>
+      <% if [0, 1, 2, 3].include?(index) then %>
+      <li>
+	    <% if [0].include?(index) then %><a href="/sergii-titov"><% end %><% if [1].include?(index) then %><a href="/andrii-kuntsiv"><% end %><% if [2].include?(index) then %><a href="/yurii-marchenko"><% end %><% if [3].include?(index) then %><a href="/oleksandr-gor"><% end %>
+        <%= image_fu team_member.photo, nil %>
+        </a>
+        <h3><% if [0].include?(index) then %><a href="/sergii-titov"><%= team_member.name %></a><% end %><% if [1].include?(index) then %><a href="/andrii-kuntsiv"><%= team_member.name %></a><% end %><% if [2].include?(index) then %><a href="/yurii-marchenko"><%= team_member.name %></a><% end %><% if [3].include?(index) then %><a href="/oleksandr-gor"><%= team_member.name %></a><% end %></h3>
+        <p><%=raw team_member.info %></p>
+      </li>
+    <% end %>
+ <% end %>
+  </ul>
+    <div class="clear"></div>
+	<h1 style="padding-top: 20px;">
+	Developers Team
+	</h1>
+  <ul id="team_members">
+    <% @team_members.each_with_index do |team_member, index| %>
+     <% if !([0, 1, 2, 3].include?(index)) then %>
       <li>
         <%= image_fu team_member.photo, nil %>
         <h3><%= team_member.name %></h3>
         <p><%=raw team_member.info %></p>
       </li>
+       <% end %>
     <% end %>
   </ul>
-
 
 	</article>
 </div>
 </div>
-
