@@ -552,6 +552,10 @@ ul, li{
 .left, .left_p{float: left;}
 .right{float: right;}
 .left_p p{float: left;}
+/*________________________________________________________*/
 
+#team_members li:first-child{
+	display: none;
+}
 
 
