@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    newsblogs:
+      title: Newsblogs
+  admin:
+    newsblogs:
+      actions:
+        create_new: Lag en ny Newsblog
+        reorder: Endre rekkefølgen på Newsblogs
+        reorder_done: Ferdig å endre rekkefølgen Newsblogs
+      records:
+        title: Newsblogs
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Newsblogs enda. Klikk på "Lag en ny Newsblog" for å legge til din første newsblog.
+      newsblog:
+        view_live_html: Vis hvordan denne newsblog ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne newsblog
+        delete: Fjern denne newsblog permanent
+  newsblogs:
+    show:
+      other: Andre Newsblogs

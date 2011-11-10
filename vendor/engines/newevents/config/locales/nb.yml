@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    newevents:
+      title: Newevents
+  admin:
+    newevents:
+      actions:
+        create_new: Lag en ny Newevent
+        reorder: Endre rekkefølgen på Newevents
+        reorder_done: Ferdig å endre rekkefølgen Newevents
+      records:
+        title: Newevents
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Newevents enda. Klikk på "Lag en ny Newevent" for å legge til din første newevent.
+      newevent:
+        view_live_html: Vis hvordan denne newevent ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne newevent
+        delete: Fjern denne newevent permanent
+  newevents:
+    show:
+      other: Andre Newevents

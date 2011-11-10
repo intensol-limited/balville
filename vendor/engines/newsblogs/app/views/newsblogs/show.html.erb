@@ -1,0 +1,51 @@
+<% content_for :body_content_title do %>
+  <%= @newsblog.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @newsblog.title %>
+    </p>
+  </section>
+  <section>
+    <h1>Date</h1>
+    <p>
+      <%=raw @newsblog.date %>
+    </p>
+  </section>
+  <section>
+    <h1>Photo</h1>
+    <p>
+      <%= image_fu @newsblog.photo, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Text1</h1>
+    <p>
+      <%=raw @newsblog.text1 %>
+    </p>
+  </section>
+  <section>
+    <h1>Text2</h1>
+    <p>
+      <%=raw @newsblog.text2 %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="newsblogs">
+      <% @newsblogs.each do |newsblog| %>
+        <li>
+          <%= link_to newsblog.title, newsblog_path(newsblog) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

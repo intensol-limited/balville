@@ -1,0 +1,44 @@
+<%- @title="News"%>
+<script src="../javascripts/jquery.js"></script>
+<div class="container_12 pages">
+<div class="grid_12 alpha omega">
+	<article>
+		<h1>
+		News
+		</h1>
+		  <div class="newsblogs">
+		    <% @newsblogs.each do |newsblog| %>
+             <div class="news_box grid_12 alpha omega">
+
+			    <%= image_fu newsblog.photo, nil , :class=>"news_img" %>
+
+                  <div class="n_text">
+			          <h1><%= newsblog.title %></h1>	
+			          <div class="news_text1">	        
+			          <%=raw newsblog.text1 %>
+			           </div>
+			          <div class="news_text">
+			            <%=raw newsblog.text2 %>
+			           </div>
+		           
+                    <div class="clear"></div>
+	                <%=link_to "more", "", :class=>"more_i right"%> 
+	                <div class="clear"></div>
+                </div>
+           </div>
+		    <% end %>
+		  </div>
+	</article>
+</div>
+</div>
+
+<%#= render :partial => "/shared/content_page" %>
+<script>
+$(document).ready(function(){
+  $(".n_text").click(function(){
+  $(this).parents(".news_box").toggleClass("news_text_active");
+  return false;
+  });
+});
+</script>
+

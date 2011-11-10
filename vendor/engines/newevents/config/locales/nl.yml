@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    newevents:
+      title: Newevents
+  admin:
+    newevents:
+      actions:
+        create_new: Maak een nieuwe Newevent
+        reorder: Wijzig de volgorde van de Newevents
+        reorder_done: Klaar met het wijzingen van de volgorde van de Newevents
+      records:
+        title: Newevents
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Newevents. Druk op 'Maak een nieuwe Newevent' om de eerste aan te maken.
+      newevent:
+        view_live_html: Bekijk deze newevent op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze newevent
+        delete: Verwijder deze newevent voor eeuwig
+  newevents:
+    show:
+      other: Andere Newevents

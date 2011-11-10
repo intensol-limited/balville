@@ -189,6 +189,8 @@ header nav li a span.Career{background-position: 0 -48px; top:5px;}
 header nav li a:hover span.Career{background-position: -16px -48px;}
 header nav li a span.Contacts{background-position: 0 -64px;}
 header nav li a:hover span.Contacts{background-position: -16px -64px;}
+header nav li a span.News{background-position: 0px -84px;}
+header nav li a:hover span.News{background-position: -16px -84px; top:5px;}
 
 header nav li:first-child a{
   border-radius: 10px 0px 0px 10px;
@@ -554,8 +556,57 @@ ul, li{
 .left_p p{float: left;}
 /*________________________________________________________*/
 
+
+/*_______________newsblogs_______________________*/
+.news_box{
+   background: none repeat scroll 0 0 #FFFFFF;
+   margin-bottom: 24px;
+   border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow:0px 2px 3px #ccc;
+  -moz-box-shadow:0px 2px 3px #ccc;
+  font-size:12px;
+  text-decoration: none;
+  color: #444;
+  position: relative;
+}
+.newsblogs img.news_img{
+	height: 165px;
+	width: 940px;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px;
+}
+.news_text{
+	display: none;
+}
+.news_text_active .news_text{
+	display: block!important;
+}
+.more_i{
+	color: #646464;
+}
+.news_text_active .more_i{
+	display: none;
+}
+
+.n_text{
+	padding: 0px 20px 10px 20px;
+}
+.n_text img{
+	float: left;
+	margin: 10px;
+}
+.news_box .n_text h1{
+	padding: 10px 0px 7px 0px;
+	font-size:20px;
+}
+/*________________________________________________________*/
+
 #team_members li:first-child{
 	display: none;
 }
 
+#item_4{
+	display: none;
+}
 

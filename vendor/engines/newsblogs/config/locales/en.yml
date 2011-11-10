@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    newsblogs:
+      title: Newsblogs
+  admin:
+    newsblogs:
+      actions:
+        create_new: Add New Newsblog
+        reorder: Reorder Newsblogs
+        reorder_done: Done Reordering Newsblogs
+      records:
+        title: Newsblogs
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Newsblogs yet. Click "Add New Newsblog" to add your first newsblog.
+      newsblog:
+        view_live_html: View this newsblog live <br/><em>(opens in a new window)</em>
+        edit: Edit this newsblog
+        delete: Remove this newsblog forever
+  newsblogs:
+    show:
+      other: Other Newsblogs

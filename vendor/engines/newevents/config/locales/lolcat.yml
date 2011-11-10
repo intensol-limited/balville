@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    newevents:
+      title: Newevents
+  admin:
+    newevents:
+      actions:
+        create_new: CREATE NEW Newevent
+        reorder: REORDR Newevents
+        reorder_done: DUN REORDERIN Newevents
+      records:
+        title: Newevents
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Newevents YET. CLICK "CREATE NEW Newevent" 2 ADD UR FURST newevent.
+      newevent:
+        view_live_html: VIEW DIS newevent LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS newevent
+        delete: REMOOV DIS newevent FOREVR
+  newevents:
+    show:
+      other: OTHR Newevents

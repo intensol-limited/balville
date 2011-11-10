@@ -1,0 +1,25 @@
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    newsblogs:
+      title: Newsblogs
+  admin:
+    newsblogs:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Newsblog
+        reorder: Réordonner les Newsblogs
+        reorder_done: Fin de réordonnancement des Newsblogs
+      records:
+        title: Newsblogs
+        sorry_no_results: "Désolé ! Aucun résultat."
+        no_items_yet: 'Il n''y a actuellement aucun(e) Newsblog. Cliquer sur "Créer un(e) nouve(au/l/lle) Newsblog" pour créer votre premi(er/ère) newsblog.'
+      newsblog:
+        view_live_html: Voir ce(t/tte) newsblog <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) newsblog
+        delete: Supprimer définitivement ce(t/tte) newsblog
+  newsblogs:
+    show:
+      other: Autres Newsblogs

@@ -67,3 +67,5 @@ gem 'refinerycms-about_pages', '1.0', :path => 'vendor/engines'
 gem 'refinerycms-projects', '1.0', :path => 'vendor/engines'
 
 gem 'refinerycms-team_members', '1.0', :path => 'vendor/engines'
+gem 'refinerycms-newsblogs', '1.0', :path => 'vendor/engines'
+gem 'refinerycms-news', '1.0', :path => 'vendor/engines'

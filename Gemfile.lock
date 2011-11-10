@@ -2,6 +2,8 @@ PATH
   remote: vendor/engines
   specs:
     refinerycms-about_pages (1.0)
+    refinerycms-news (1.0)
+    refinerycms-newsblogs (1.0)
     refinerycms-projects (1.0)
     refinerycms-team_members (1.0)
     refinerycms-vacancies (1.0)
@@ -165,6 +167,8 @@ DEPENDENCIES
   refinerycms-about_pages (= 1.0)!
   refinerycms-i18n (~> 1.0.0)
   refinerycms-inquiries (~> 1.0.0)
+  refinerycms-news (= 1.0)!
+  refinerycms-newsblogs (= 1.0)!
   refinerycms-projects (= 1.0)!
   refinerycms-team_members (= 1.0)!
   refinerycms-vacancies (= 1.0)!

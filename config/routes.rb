@@ -1,6 +1,7 @@
 RefineTest::Application.routes.draw do
   match '/projects/<%= project.title1 %>' => "projects#show"
-
+  match '/news' => "newsblogs#index"
+  match '/news/<%= newsblogs.title %>' => "newsblogs#show"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

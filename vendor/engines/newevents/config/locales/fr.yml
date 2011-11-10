@@ -1,0 +1,25 @@
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    newevents:
+      title: Newevents
+  admin:
+    newevents:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Newevent
+        reorder: Réordonner les Newevents
+        reorder_done: Fin de réordonnancement des Newevents
+      records:
+        title: Newevents
+        sorry_no_results: "Désolé ! Aucun résultat."
+        no_items_yet: 'Il n''y a actuellement aucun(e) Newevent. Cliquer sur "Créer un(e) nouve(au/l/lle) Newevent" pour créer votre premi(er/ère) newevent.'
+      newevent:
+        view_live_html: Voir ce(t/tte) newevent <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) newevent
+        delete: Supprimer définitivement ce(t/tte) newevent
+  newevents:
+    show:
+      other: Autres Newevents
